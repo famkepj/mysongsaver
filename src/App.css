@@ -1,0 +1,94 @@
+.App-header {
+  background-color: #456b8f;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.SongForm {
+  background-color: rgb(132, 209, 183);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width: 20%;
+}
+
+.addSongButton {
+  background-color: rgb(90, 150, 130);
+  color: aliceblue;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.addSongButton:hover {
+  background-color: rgb(165, 132, 167);
+}
+
+.addSongButton:active {
+  transform: scale(0.8);
+  transition-duration: 100ms;
+}
+
+.song-header {
+  background-color: rgb(132, 209, 183);
+  color: aliceblue;
+  font-weight: bold;
+  display: flex;
+  width: 98%;
+  justify-content: space-around;
+  margin: 1%;
+}
+
+.songList {
+  background-color: rgb(165, 132, 167);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1em;
+  width: 98%;
+  margin: 1%;
+}
+
+.songList tr:hover{
+  background-color: rgb(136, 105, 138);
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  width: 24%;
+}
+
+.dropdownContent {
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#grey {
+  color: grey;
+}
+
+.nav {
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.tekst{
+  margin:50px;
+}
